@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H1419" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Folder" representedClassName="Folder" syncable="YES">
+        <attribute name="name" attributeType="String"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="organises" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Perspective" inverseName="containedIn" inverseEntity="Perspective"/>
+    </entity>
+    <entity name="Perspective" representedClassName="Perspective" syncable="YES">
+        <attribute name="horizontalLine" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="type" attributeType="String" valueTransformerName="NSSecureUnarchiveFromDataTransformer" customClassName="ChartType"/>
+        <attribute name="verticalLine" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="xAxisName" attributeType="String"/>
+        <attribute name="xAxisUnit" attributeType="String"/>
+        <attribute name="yAxisName" attributeType="String"/>
+        <attribute name="yAxisUnit" attributeType="String"/>
+        <relationship name="containedIn" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Folder" inverseName="organises" inverseEntity="Folder"/>
+        <relationship name="has" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PerspectiveData" inverseName="belongsTo" inverseEntity="PerspectiveData"/>
+    </entity>
+    <entity name="PerspectiveData" representedClassName="PerspectiveData" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="x" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="y" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="belongsTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Perspective" inverseName="has" inverseEntity="Perspective"/>
+    </entity>
+    <elements>
+        <element name="Folder" positionX="-95.953125" positionY="-252.41796875" width="128" height="88"/>
+        <element name="Perspective" positionX="-100.8671875" positionY="-129.51171875" width="217.593505859375" height="208"/>
+        <element name="PerspectiveData" positionX="221.44921875" positionY="-122.78515625" width="128" height="118"/>
+    </elements>
+</model>

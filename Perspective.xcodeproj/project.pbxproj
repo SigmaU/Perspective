@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3903546C2637E6C500C25790 /* PerspectiveViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903546B2637E6C500C25790 /* PerspectiveViewCell.swift */; };
+		3909F72327033AD800779A0F /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909F72227033AD800779A0F /* ColorPalette.swift */; };
+		390AB36F265F7FC4000EFB28 /* AxisTitleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390AB36E265F7FC4000EFB28 /* AxisTitleRenderer.swift */; };
+		392DE41E272FD5A90020EA41 /* PerspectiveChartViewController+AxisTitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DE41D272FD5A90020EA41 /* PerspectiveChartViewController+AxisTitles.swift */; };
+		39357278264D40E800C84B32 /* PerspectiveDataViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39357277264D40E800C84B32 /* PerspectiveDataViewCell.swift */; };
+		3935727B264D485500C84B32 /* PerspectiveDataViewController+SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3935727A264D485500C84B32 /* PerspectiveDataViewController+SwipeActions.swift */; };
+		39365A612692D8DC008EE92D /* AppDelegate+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39365A602692D8DC008EE92D /* AppDelegate+Shared.swift */; };
+		394AAB5627181190006B5B33 /* PerspectiveDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394AAB5527181190006B5B33 /* PerspectiveDateFormatter.swift */; };
+		3951189F274CD91600B3B1CA /* DemoPerspective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951189E274CD91600B3B1CA /* DemoPerspective.swift */; };
+		39544C3D2719656200262D03 /* ChartAxisFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39544C3C2719656200262D03 /* ChartAxisFormatter.swift */; };
+		395A53E426F86DA40030F65B /* UITextField+ChartPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A53E326F86DA40030F65B /* UITextField+ChartPicker.swift */; };
+		3967538B274F87380082A066 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967538A274F87380082A066 /* Model.swift */; };
+		3968C75C26CD1802009778F0 /* PerspectiveChartType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968C75B26CD1802009778F0 /* PerspectiveChartType.swift */; };
+		397ABF152628203B00D3872E /* FolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397ABF142628203B00D3872E /* FolderViewController.swift */; };
+		397ABF1A262822B800D3872E /* PerspectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397ABF19262822B800D3872E /* PerspectiveViewController.swift */; };
+		397ABF1E2628237400D3872E /* PerspectiveChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397ABF1D2628237400D3872E /* PerspectiveChartViewController.swift */; };
+		397ABF212628237F00D3872E /* PerspectiveDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397ABF202628237F00D3872E /* PerspectiveDataViewController.swift */; };
+		397ABF2D2628662E00D3872E /* FolderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397ABF2C2628662E00D3872E /* FolderViewCell.swift */; };
+		397ABF352628671C00D3872E /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397ABF342628671C00D3872E /* Folder+CoreDataProperties.swift */; };
+		397ABF39262879DB00D3872E /* PerspectiveData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397ABF38262879DB00D3872E /* PerspectiveData+CoreDataProperties.swift */; };
+		398B9213270D8EFF00ADBC38 /* UITextField+DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B9212270D8EFF00ADBC38 /* UITextField+DatePicker.swift */; };
+		398C4AD9272A84EE00CF0D0F /* PromptToEditPerspective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C4AD8272A84EE00CF0D0F /* PromptToEditPerspective.swift */; };
+		399DC21F265BCAD7007C2F6E /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DC21E265BCAD7007C2F6E /* BalloonMarker.swift */; };
+		39A53A642705CCA200FA28F7 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A53A632705CCA200FA28F7 /* NumberFormatter.swift */; };
+		39A66F5E2632C3F2000038FA /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = 39A66F5D2632C3F2000038FA /* SwipeCellKit */; };
+		39BDFCEF264BCA7600BB43F7 /* FolderViewController+SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDFCEE264BCA7600BB43F7 /* FolderViewController+SwipeActions.swift */; };
+		39BDFCF2264BF5F500BB43F7 /* PerspectiveViewController+SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDFCF1264BF5F500BB43F7 /* PerspectiveViewController+SwipeActions.swift */; };
+		39EBFFF52750FF6D00419E06 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EBFFF42750FF6D00419E06 /* DemoData.swift */; };
+		39F1B07F26270EBB006706AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1B07E26270EBB006706AF /* AppDelegate.swift */; };
+		39F1B08126270EBB006706AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1B08026270EBB006706AF /* SceneDelegate.swift */; };
+		39F1B08326270EBB006706AF /* PerspectiveDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1B08226270EBB006706AF /* PerspectiveDetailedViewController.swift */; };
+		39F1B08626270EBB006706AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F1B08426270EBB006706AF /* Main.storyboard */; };
+		39F1B08826270EBE006706AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F1B08726270EBE006706AF /* Assets.xcassets */; };
+		39F1B08B26270EBE006706AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F1B08926270EBE006706AF /* LaunchScreen.storyboard */; };
+		39F1B09926270FB1006706AF /* DataStorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1B09826270FB1006706AF /* DataStorageProvider.swift */; };
+		39F1B09D2627107E006706AF /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 39F1B09C2627107E006706AF /* Charts */; };
+		39F1B0A2262710D0006706AF /* PerspectiveDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39F1B0A0262710D0006706AF /* PerspectiveDataModel.xcdatamodeld */; };
+		39F1B0A526271144006706AF /* Perspective+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1B0A426271144006706AF /* Perspective+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3903546B2637E6C500C25790 /* PerspectiveViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveViewCell.swift; sourceTree = "<group>"; };
+		3909F72227033AD800779A0F /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		390AB36E265F7FC4000EFB28 /* AxisTitleRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisTitleRenderer.swift; sourceTree = "<group>"; };
+		392DE41D272FD5A90020EA41 /* PerspectiveChartViewController+AxisTitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PerspectiveChartViewController+AxisTitles.swift"; sourceTree = "<group>"; };
+		39357277264D40E800C84B32 /* PerspectiveDataViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveDataViewCell.swift; sourceTree = "<group>"; };
+		3935727A264D485500C84B32 /* PerspectiveDataViewController+SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PerspectiveDataViewController+SwipeActions.swift"; sourceTree = "<group>"; };
+		39365A602692D8DC008EE92D /* AppDelegate+Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Shared.swift"; sourceTree = "<group>"; };
+		394AAB5527181190006B5B33 /* PerspectiveDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveDateFormatter.swift; sourceTree = "<group>"; };
+		3951189E274CD91600B3B1CA /* DemoPerspective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPerspective.swift; sourceTree = "<group>"; };
+		39544C3C2719656200262D03 /* ChartAxisFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartAxisFormatter.swift; sourceTree = "<group>"; };
+		395A53E326F86DA40030F65B /* UITextField+ChartPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+ChartPicker.swift"; sourceTree = "<group>"; };
+		3967538A274F87380082A066 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3968C75B26CD1802009778F0 /* PerspectiveChartType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveChartType.swift; sourceTree = "<group>"; };
+		397ABF142628203B00D3872E /* FolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderViewController.swift; sourceTree = "<group>"; };
+		397ABF19262822B800D3872E /* PerspectiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveViewController.swift; sourceTree = "<group>"; };
+		397ABF1D2628237400D3872E /* PerspectiveChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveChartViewController.swift; sourceTree = "<group>"; };
+		397ABF202628237F00D3872E /* PerspectiveDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveDataViewController.swift; sourceTree = "<group>"; };
+		397ABF2C2628662E00D3872E /* FolderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderViewCell.swift; sourceTree = "<group>"; };
+		397ABF342628671C00D3872E /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		397ABF38262879DB00D3872E /* PerspectiveData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PerspectiveData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		398B9212270D8EFF00ADBC38 /* UITextField+DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+DatePicker.swift"; sourceTree = "<group>"; };
+		398C4AD8272A84EE00CF0D0F /* PromptToEditPerspective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptToEditPerspective.swift; sourceTree = "<group>"; };
+		399DC21E265BCAD7007C2F6E /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		39A53A632705CCA200FA28F7 /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		39BDFCEE264BCA7600BB43F7 /* FolderViewController+SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FolderViewController+SwipeActions.swift"; sourceTree = "<group>"; };
+		39BDFCF1264BF5F500BB43F7 /* PerspectiveViewController+SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PerspectiveViewController+SwipeActions.swift"; sourceTree = "<group>"; };
+		39EBFFF42750FF6D00419E06 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		39F1B07B26270EBB006706AF /* Perspective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perspective.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F1B07E26270EBB006706AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39F1B08026270EBB006706AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39F1B08226270EBB006706AF /* PerspectiveDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveDetailedViewController.swift; sourceTree = "<group>"; };
+		39F1B08526270EBB006706AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39F1B08726270EBE006706AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39F1B08A26270EBE006706AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39F1B08C26270EBE006706AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F1B09826270FB1006706AF /* DataStorageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStorageProvider.swift; sourceTree = "<group>"; };
+		39F1B0A1262710D0006706AF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		39F1B0A426271144006706AF /* Perspective+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Perspective+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F1B07826270EBB006706AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A66F5E2632C3F2000038FA /* SwipeCellKit in Frameworks */,
+				39F1B09D2627107E006706AF /* Charts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390AB36C265F7F03000EFB28 /* Perspective Chart */ = {
+			isa = PBXGroup;
+			children = (
+				390AB36D265F7F7C000EFB28 /* Renderers & Formatters */,
+				397ABF1D2628237400D3872E /* PerspectiveChartViewController.swift */,
+				392DE41D272FD5A90020EA41 /* PerspectiveChartViewController+AxisTitles.swift */,
+				3968C75B26CD1802009778F0 /* PerspectiveChartType.swift */,
+			);
+			path = "Perspective Chart";
+			sourceTree = "<group>";
+		};
+		390AB36D265F7F7C000EFB28 /* Renderers & Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				399DC21E265BCAD7007C2F6E /* BalloonMarker.swift */,
+				390AB36E265F7FC4000EFB28 /* AxisTitleRenderer.swift */,
+				39544C3C2719656200262D03 /* ChartAxisFormatter.swift */,
+			);
+			path = "Renderers & Formatters";
+			sourceTree = "<group>";
+		};
+		3951189D274CD8B000B3B1CA /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3951189E274CD91600B3B1CA /* DemoPerspective.swift */,
+				39EBFFF42750FF6D00419E06 /* DemoData.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		397ABF172628204400D3872E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3909F72227033AD800779A0F /* ColorPalette.swift */,
+				39BDFCEB264BC97700BB43F7 /* Folder */,
+				39BDFCEA264BC96800BB43F7 /* Perspective */,
+				398B9216270D910800ADBC38 /* PerspectiveDetail */,
+				398B9210270D8EA400ADBC38 /* View Extensions */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		397ABF2B2628660400D3872E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3967538A274F87380082A066 /* Model.swift */,
+				39EBFFF32750DE4600419E06 /* CoreData */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		398B9210270D8EA400ADBC38 /* View Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				395A53E326F86DA40030F65B /* UITextField+ChartPicker.swift */,
+				398B9212270D8EFF00ADBC38 /* UITextField+DatePicker.swift */,
+				394AAB5527181190006B5B33 /* PerspectiveDateFormatter.swift */,
+			);
+			path = "View Extensions";
+			sourceTree = "<group>";
+		};
+		398B9216270D910800ADBC38 /* PerspectiveDetail */ = {
+			isa = PBXGroup;
+			children = (
+				39F1B08226270EBB006706AF /* PerspectiveDetailedViewController.swift */,
+				39BDFCEC264BC98600BB43F7 /* Perspective Data */,
+				390AB36C265F7F03000EFB28 /* Perspective Chart */,
+			);
+			path = PerspectiveDetail;
+			sourceTree = "<group>";
+		};
+		39A53A622705CC9700FA28F7 /* Renderers & Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				39A53A632705CCA200FA28F7 /* NumberFormatter.swift */,
+			);
+			path = "Renderers & Formatters";
+			sourceTree = "<group>";
+		};
+		39BDFCEA264BC96800BB43F7 /* Perspective */ = {
+			isa = PBXGroup;
+			children = (
+				397ABF19262822B800D3872E /* PerspectiveViewController.swift */,
+				3903546B2637E6C500C25790 /* PerspectiveViewCell.swift */,
+				39BDFCF1264BF5F500BB43F7 /* PerspectiveViewController+SwipeActions.swift */,
+				398C4AD8272A84EE00CF0D0F /* PromptToEditPerspective.swift */,
+			);
+			path = Perspective;
+			sourceTree = "<group>";
+		};
+		39BDFCEB264BC97700BB43F7 /* Folder */ = {
+			isa = PBXGroup;
+			children = (
+				397ABF142628203B00D3872E /* FolderViewController.swift */,
+				397ABF2C2628662E00D3872E /* FolderViewCell.swift */,
+				39BDFCEE264BCA7600BB43F7 /* FolderViewController+SwipeActions.swift */,
+			);
+			path = Folder;
+			sourceTree = "<group>";
+		};
+		39BDFCEC264BC98600BB43F7 /* Perspective Data */ = {
+			isa = PBXGroup;
+			children = (
+				39A53A622705CC9700FA28F7 /* Renderers & Formatters */,
+				397ABF202628237F00D3872E /* PerspectiveDataViewController.swift */,
+				39357277264D40E800C84B32 /* PerspectiveDataViewCell.swift */,
+				3935727A264D485500C84B32 /* PerspectiveDataViewController+SwipeActions.swift */,
+			);
+			path = "Perspective Data";
+			sourceTree = "<group>";
+		};
+		39EBFFF32750DE4600419E06 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				39F1B0A0262710D0006706AF /* PerspectiveDataModel.xcdatamodeld */,
+				397ABF342628671C00D3872E /* Folder+CoreDataProperties.swift */,
+				39F1B0A426271144006706AF /* Perspective+CoreDataProperties.swift */,
+				397ABF38262879DB00D3872E /* PerspectiveData+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		39F1B07226270EBB006706AF = {
+			isa = PBXGroup;
+			children = (
+				39F1B07D26270EBB006706AF /* Perspective */,
+				39F1B07C26270EBB006706AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39F1B07C26270EBB006706AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39F1B07B26270EBB006706AF /* Perspective.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39F1B07D26270EBB006706AF /* Perspective */ = {
+			isa = PBXGroup;
+			children = (
+				39F1B07E26270EBB006706AF /* AppDelegate.swift */,
+				39365A602692D8DC008EE92D /* AppDelegate+Shared.swift */,
+				39F1B08026270EBB006706AF /* SceneDelegate.swift */,
+				39F1B09826270FB1006706AF /* DataStorageProvider.swift */,
+				39F1B08726270EBE006706AF /* Assets.xcassets */,
+				397ABF172628204400D3872E /* View */,
+				397ABF2B2628660400D3872E /* Model */,
+				3951189D274CD8B000B3B1CA /* Demo */,
+				39F1B08426270EBB006706AF /* Main.storyboard */,
+				39F1B08926270EBE006706AF /* LaunchScreen.storyboard */,
+				39F1B08C26270EBE006706AF /* Info.plist */,
+			);
+			path = Perspective;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39F1B07A26270EBB006706AF /* Perspective */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F1B08F26270EBE006706AF /* Build configuration list for PBXNativeTarget "Perspective" */;
+			buildPhases = (
+				39F1B07726270EBB006706AF /* Sources */,
+				39F1B07826270EBB006706AF /* Frameworks */,
+				39F1B07926270EBB006706AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Perspective;
+			packageProductDependencies = (
+				39F1B09C2627107E006706AF /* Charts */,
+				39A66F5D2632C3F2000038FA /* SwipeCellKit */,
+			);
+			productName = Perspective;
+			productReference = 39F1B07B26270EBB006706AF /* Perspective.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39F1B07326270EBB006706AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					39F1B07A26270EBB006706AF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 39F1B07626270EBB006706AF /* Build configuration list for PBXProject "Perspective" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39F1B07226270EBB006706AF;
+			packageReferences = (
+				39F1B09B2627107E006706AF /* XCRemoteSwiftPackageReference "Charts" */,
+				39A66F5C2632C3F2000038FA /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
+			);
+			productRefGroup = 39F1B07C26270EBB006706AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39F1B07A26270EBB006706AF /* Perspective */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39F1B07926270EBB006706AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F1B08B26270EBE006706AF /* LaunchScreen.storyboard in Resources */,
+				39F1B08826270EBE006706AF /* Assets.xcassets in Resources */,
+				39F1B08626270EBB006706AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F1B07726270EBB006706AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BDFCEF264BCA7600BB43F7 /* FolderViewController+SwipeActions.swift in Sources */,
+				390AB36F265F7FC4000EFB28 /* AxisTitleRenderer.swift in Sources */,
+				39F1B08326270EBB006706AF /* PerspectiveDetailedViewController.swift in Sources */,
+				397ABF152628203B00D3872E /* FolderViewController.swift in Sources */,
+				397ABF212628237F00D3872E /* PerspectiveDataViewController.swift in Sources */,
+				3968C75C26CD1802009778F0 /* PerspectiveChartType.swift in Sources */,
+				3903546C2637E6C500C25790 /* PerspectiveViewCell.swift in Sources */,
+				3935727B264D485500C84B32 /* PerspectiveDataViewController+SwipeActions.swift in Sources */,
+				398C4AD9272A84EE00CF0D0F /* PromptToEditPerspective.swift in Sources */,
+				39F1B07F26270EBB006706AF /* AppDelegate.swift in Sources */,
+				3909F72327033AD800779A0F /* ColorPalette.swift in Sources */,
+				39357278264D40E800C84B32 /* PerspectiveDataViewCell.swift in Sources */,
+				395A53E426F86DA40030F65B /* UITextField+ChartPicker.swift in Sources */,
+				39544C3D2719656200262D03 /* ChartAxisFormatter.swift in Sources */,
+				399DC21F265BCAD7007C2F6E /* BalloonMarker.swift in Sources */,
+				397ABF2D2628662E00D3872E /* FolderViewCell.swift in Sources */,
+				397ABF1A262822B800D3872E /* PerspectiveViewController.swift in Sources */,
+				3951189F274CD91600B3B1CA /* DemoPerspective.swift in Sources */,
+				398B9213270D8EFF00ADBC38 /* UITextField+DatePicker.swift in Sources */,
+				397ABF39262879DB00D3872E /* PerspectiveData+CoreDataProperties.swift in Sources */,
+				39F1B09926270FB1006706AF /* DataStorageProvider.swift in Sources */,
+				397ABF1E2628237400D3872E /* PerspectiveChartViewController.swift in Sources */,
+				392DE41E272FD5A90020EA41 /* PerspectiveChartViewController+AxisTitles.swift in Sources */,
+				3967538B274F87380082A066 /* Model.swift in Sources */,
+				39BDFCF2264BF5F500BB43F7 /* PerspectiveViewController+SwipeActions.swift in Sources */,
+				39365A612692D8DC008EE92D /* AppDelegate+Shared.swift in Sources */,
+				39F1B0A2262710D0006706AF /* PerspectiveDataModel.xcdatamodeld in Sources */,
+				39F1B0A526271144006706AF /* Perspective+CoreDataProperties.swift in Sources */,
+				394AAB5627181190006B5B33 /* PerspectiveDateFormatter.swift in Sources */,
+				39EBFFF52750FF6D00419E06 /* DemoData.swift in Sources */,
+				39A53A642705CCA200FA28F7 /* NumberFormatter.swift in Sources */,
+				39F1B08126270EBB006706AF /* SceneDelegate.swift in Sources */,
+				397ABF352628671C00D3872E /* Folder+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39F1B08426270EBB006706AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F1B08526270EBB006706AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39F1B08926270EBE006706AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F1B08A26270EBE006706AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39F1B08D26270EBE006706AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39F1B08E26270EBE006706AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39F1B09026270EBE006706AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 462WCMBKM2;
+				INFOPLIST_FILE = Perspective/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.o1.Perspective;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		39F1B09126270EBE006706AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 462WCMBKM2;
+				INFOPLIST_FILE = Perspective/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.o1.Perspective;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39F1B07626270EBB006706AF /* Build configuration list for PBXProject "Perspective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F1B08D26270EBE006706AF /* Debug */,
+				39F1B08E26270EBE006706AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F1B08F26270EBE006706AF /* Build configuration list for PBXNativeTarget "Perspective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F1B09026270EBE006706AF /* Debug */,
+				39F1B09126270EBE006706AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39A66F5C2632C3F2000038FA /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
+		39F1B09B2627107E006706AF /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39A66F5D2632C3F2000038FA /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39A66F5C2632C3F2000038FA /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
+			productName = SwipeCellKit;
+		};
+		39F1B09C2627107E006706AF /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39F1B09B2627107E006706AF /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		39F1B0A0262710D0006706AF /* PerspectiveDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39F1B0A1262710D0006706AF /* Model.xcdatamodel */,
+			);
+			currentVersion = 39F1B0A1262710D0006706AF /* Model.xcdatamodel */;
+			path = PerspectiveDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39F1B07326270EBB006706AF /* Project object */;
+}
