@@ -29,15 +29,15 @@ iOS12: As a challenge to myself and, quite frankly, reminiscent of my old iPhone
 
 ## Roadmap
 
- • Overlayed Chart Data Display
- • Redesigned Habit Chart
-•  Tapped Collection Data Highlights
-•  Redesigned Modal for Creating a new Perspective
-•  Share Charts
-•  Custom User Colors
-•  Custom Chart Moving Average
-•  Bar Charts
-•  Pie & Radar Charts
+###### • Overlayed Chart Data Display
+###### • Redesigned Habit Chart
+###### •  Tapped Collection Data Highlights
+###### •  Redesigned Modal for Creating a new Perspective
+###### •  Share Charts
+###### •  Custom User Colors
+###### •  Custom Chart Moving Average
+###### •  Bar Charts
+###### •  Pie & Radar Charts
 
 ## About
 > "For me, Perspective is a passion project, a tool I use every day.  
