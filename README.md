@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="180" height="180" src="https://bit.ly/3oU3fM6" alt="Perspective logo">
+    <img width="180" height="180" src="Perspective/Assets.xcassets/AppIcon.appiconset/3x_180x180.png" alt="Perspective logo">
 </p>
 
 # Perspective
@@ -11,19 +11,19 @@ Data wants to speak in charts, eager to offer a perspective, a perspective that 
 Time Series: Progress measured in time is one of my favorite perspectives. We can visualize our progress, see our limits and reach beyond them. 
 
 <p align="left">
-    <img width="375" height="647" src="https://bit.ly/3dPkOql" alt="Perspective Time Series Chart">
+    <img width="375" height="647" src="Readme Resources/Perspective Running.gif" alt="Perspective Time Series Chart">
 </p>
 
 Contingency: Inspired by Eisenhower's matrix of what is important and what is urgent, we can plot all kinds of contingency charts - to better weigh what truly matters and where our focus should be.
 
 <p align="left">
-    <img width="375" height="647" src="https://bit.ly/3GIOvpr" alt="Perspective Contingency Chart">
+    <img width="375" height="647" src="Readme Resources/Perspective Cooking Time.gif" alt="Perspective Contingency Chart">
 </p>
 
 iOS12: As a challenge to myself and, quite frankly, reminiscent of my old iPhone 5s, I started the app with iOS12 in mind. It turned out to be a great learning curve since it forced me to see its limitations and uncover workarounds.
 
 <p float="left">
-  <img width="600" height="513" src="https://bit.ly/3F0F8Ro" alt="Perspective iOS12 & iOS15">
+  <img width="600" height="513" src="Readme Resources/Perspective Swift iOS12&iOS15.gif" alt="Perspective iOS12 & iOS15">
 </p>
 
 
